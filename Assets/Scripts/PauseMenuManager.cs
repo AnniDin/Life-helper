@@ -10,6 +10,7 @@ public class PauseMenuManager : MonoBehaviour
 
     private bool pauseMenuEnable;
 
+    [HideInInspector]
     public Vector2 punctuationToSave;
 
     private void Start()

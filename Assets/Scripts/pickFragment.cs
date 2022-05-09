@@ -9,6 +9,7 @@ public class pickFragment : MonoBehaviour
 
     void OnMouseDown()
     {
+        print("cogido");
         picked = true;
     }
     private void OnMouseUp()

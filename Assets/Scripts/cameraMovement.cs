@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class cameraMovement : MonoBehaviour
 {
-    private float actualX;
-    private float actualY;
-    private float actualZ;
+    public float actualX;
+    public float actualY;
+    public float actualZ;
 
-    private float initialX;
-    private float initialY;
-    private float initialZ;
+    public float initialX;
+    public float initialY;
+    public float initialZ;
 
     private float m_Timer;
 
@@ -35,7 +35,7 @@ public class cameraMovement : MonoBehaviour
 
         resolution = Screen.currentResolution;
     }
-
+    
     // Update is called once per frame
     void FixedUpdate()
     {

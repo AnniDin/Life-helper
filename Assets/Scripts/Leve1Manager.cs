@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Leve1Manager : MonoBehaviour
 {
@@ -120,18 +121,36 @@ public class Leve1Manager : MonoBehaviour
                 {
                     cam.transform.position = new Vector3(6.58f, 0.46f, 2.8f);
                     cam.transform.eulerAngles = new Vector3(20f, 270f, 0f);
+                    cam.GetComponent<cameraMovement>().actualX = 20f;
+                    cam.GetComponent<cameraMovement>().actualY = 270f;
+                    cam.GetComponent<cameraMovement>().actualZ = 0f;
+                    cam.GetComponent<cameraMovement>().initialX = 20f;
+                    cam.GetComponent<cameraMovement>().initialY = 270f;
+                    cam.GetComponent<cameraMovement>().initialZ = 0f;
                     actualRoom = "Cama";
                 }
                 else if (hit.collider.name == "Estanteria")
                 {
                     cam.transform.position = new Vector3(12f, 1.3f, 5.27f);
                     cam.transform.eulerAngles = new Vector3(0f, 270f, 0f);
+                    cam.GetComponent<cameraMovement>().actualX = 0f;
+                    cam.GetComponent<cameraMovement>().actualY = 270f;
+                    cam.GetComponent<cameraMovement>().actualZ = 0f;
+                    cam.GetComponent<cameraMovement>().initialX = 0f;
+                    cam.GetComponent<cameraMovement>().initialY = 270f;
+                    cam.GetComponent<cameraMovement>().initialZ = 0f;
                     actualRoom = "Estanteria";
                 }
                 else if (hit.collider.name == "Escritorio")
                 {
                     cam.transform.position = new Vector3(11.7f, 1.57f, 3.66f);
                     cam.transform.eulerAngles = new Vector3(20f, 270f, 0f);
+                    cam.GetComponent<cameraMovement>().actualX = 20f;
+                    cam.GetComponent<cameraMovement>().actualY = 270f;
+                    cam.GetComponent<cameraMovement>().actualZ = 0f;
+                    cam.GetComponent<cameraMovement>().initialX = 20f;
+                    cam.GetComponent<cameraMovement>().initialY = 270f;
+                    cam.GetComponent<cameraMovement>().initialZ = 0f;
                     actualRoom = "Escritorio";
                 }
             }
@@ -520,7 +539,7 @@ public class Leve1Manager : MonoBehaviour
         else if (dialog.lastSentence.Contains("¡Nos vamos!"))
         {
             this.gameObject.GetComponent<PauseMenuManager>().punctuationToSave += punctuation;
-            //cambiar a escena 2
+            SceneManager.LoadScene("Level2");
         }
 
         else
@@ -596,9 +615,10 @@ public class Leve1Manager : MonoBehaviour
             if (fragmentFound)
             {
                 sentences.Add("¡Genial! Eso significa que podemos seguir buscando los siguientes.");
-                sentences.Add("Pero para ello necesito tele-transportarnos con la energía que le queda a este fragmento.");
-                sentences.Add("Puede ser algo desagradable pero de lo contrario tardaríamos demasiado.");
-                sentences.Add("Así que con tu permiso...");
+                sentences.Add("Espera... ¿Notas eso?");
+                sentences.Add("Creo que es algo que solo yo puedo sentir, pero parece que se está iniciando un transporte.");
+                sentences.Add("¡Yo no lo he iniciado, pero no puedo detenerlo!");
+                sentences.Add("En fin, que remedio.");
                 sentences.Add("¡Nos vamos!");
 
             }

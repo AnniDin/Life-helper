@@ -29,6 +29,8 @@ public class MainMenuManager : MonoBehaviour
     bool[] risksValue;
     bool contidionValue;
 
+    Vector2 questionnairePunctuation;
+
     void Awake()
     {
         completedQuestionnaire = false;
@@ -43,6 +45,8 @@ public class MainMenuManager : MonoBehaviour
         antecedentDisordersValue = new int[2];
         medicationValue = new int[2];
         risksValue = new bool[5];
+
+        questionnairePunctuation = new Vector2(0, 0);
     }
 
     // Update is called once per frame
@@ -123,6 +127,8 @@ public class MainMenuManager : MonoBehaviour
         questionnaire = GameObject.Find("Canvas").transform.GetChild(6).gameObject;
         questionnaire.SetActive(false);
         activedQuestionnaire = false;
+
+        questionnairePunctuation = new Vector2(0, 0);
     }
 
     public void finalizeQuestionnaire()
@@ -140,48 +146,130 @@ public class MainMenuManager : MonoBehaviour
             {
                 diagnosedDisorders[0] = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
                 diagnosedDisordersValue[0] = drop.GetComponent<TMP_Dropdown>().value;
+                if (drop.GetComponent<TMP_Dropdown>().value == 6 || drop.GetComponent<TMP_Dropdown>().value == 7
+                    || drop.GetComponent<TMP_Dropdown>().value == 10 || drop.GetComponent<TMP_Dropdown>().value == 14 
+                    || drop.GetComponent<TMP_Dropdown>().value == 3 || drop.GetComponent<TMP_Dropdown>().value == 9)
+                {
+                    questionnairePunctuation += new Vector2(10, 0);
+                }
+                if (drop.GetComponent<TMP_Dropdown>().value == 3
+                    || drop.GetComponent<TMP_Dropdown>().value == 4 || drop.GetComponent<TMP_Dropdown>().value == 5 
+                    || drop.GetComponent<TMP_Dropdown>().value == 13)
+                {
+                    questionnairePunctuation += new Vector2(0, 10);
+                }
+
+                if (drop.GetComponent<TMP_Dropdown>().value == 2)
+                {
+                    questionnairePunctuation += new Vector2(4, 7);
+                }
+
+                if (drop.GetComponent<TMP_Dropdown>().value == 15)
+                {
+                    questionnairePunctuation += new Vector2(10, 10);
+                }
             }
 
             else if (i == 1)
             {
                 diagnosedDisorders[1] = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
                 diagnosedDisordersValue[1] = drop.GetComponent<TMP_Dropdown>().value;
+                if (drop.GetComponent<TMP_Dropdown>().value == 6 || drop.GetComponent<TMP_Dropdown>().value == 7
+                    || drop.GetComponent<TMP_Dropdown>().value == 10 || drop.GetComponent<TMP_Dropdown>().value == 14 
+                    || drop.GetComponent<TMP_Dropdown>().value == 3 || drop.GetComponent<TMP_Dropdown>().value == 9)
+                {
+                    questionnairePunctuation += new Vector2(10, 0);
+                }
+                if (drop.GetComponent<TMP_Dropdown>().value == 3
+                    || drop.GetComponent<TMP_Dropdown>().value == 4 || drop.GetComponent<TMP_Dropdown>().value == 5
+                    || drop.GetComponent<TMP_Dropdown>().value == 13)
+                {
+                    questionnairePunctuation += new Vector2(0, 10);
+                }
+                if (drop.GetComponent<TMP_Dropdown>().value == 2)
+                {
+                    questionnairePunctuation += new Vector2(4, 7);
+                }
+                if (drop.GetComponent<TMP_Dropdown>().value == 15)
+                {
+                    questionnairePunctuation += new Vector2(10, 10);
+                }
             }
 
             else if (i == 2)
             {
                 antecedentDisorders[0] = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
                 antecedentDisordersValue[0] = drop.GetComponent<TMP_Dropdown>().value;
+                if (drop.GetComponent<TMP_Dropdown>().value == 6 || drop.GetComponent<TMP_Dropdown>().value == 7
+                 || drop.GetComponent<TMP_Dropdown>().value == 10 || drop.GetComponent<TMP_Dropdown>().value == 14 
+                 || drop.GetComponent<TMP_Dropdown>().value == 3 || drop.GetComponent<TMP_Dropdown>().value == 9)
+                {
+                    questionnairePunctuation += new Vector2(5, 0);
+                }
+                if (drop.GetComponent<TMP_Dropdown>().value == 3
+                    || drop.GetComponent<TMP_Dropdown>().value == 4 || drop.GetComponent<TMP_Dropdown>().value == 5
+                    || drop.GetComponent<TMP_Dropdown>().value == 13)
+                {
+                    questionnairePunctuation += new Vector2(0, 5);
+                }
             }
 
             else if (i == 3)
             {
                 antecedentDisorders[1] = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
                 antecedentDisordersValue[1] = drop.GetComponent<TMP_Dropdown>().value;
+                if (drop.GetComponent<TMP_Dropdown>().value == 6 || drop.GetComponent<TMP_Dropdown>().value == 7
+                    || drop.GetComponent<TMP_Dropdown>().value == 10 || drop.GetComponent<TMP_Dropdown>().value == 14 
+                    || drop.GetComponent<TMP_Dropdown>().value == 3 || drop.GetComponent<TMP_Dropdown>().value == 9)
+                {
+                    questionnairePunctuation += new Vector2(5, 0);
+                }
+                if (drop.GetComponent<TMP_Dropdown>().value == 3
+                    || drop.GetComponent<TMP_Dropdown>().value == 4 || drop.GetComponent<TMP_Dropdown>().value == 5
+                    || drop.GetComponent<TMP_Dropdown>().value == 13)
+                {
+                    questionnairePunctuation += new Vector2(0, 5);
+                }
             }
 
             else if (i == 4)
             {
                 medication[0] = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
                 medicationValue[0] = drop.GetComponent<TMP_Dropdown>().value;
+                if (drop.GetComponent<TMP_Dropdown>().value != 0)
+                {
+                    questionnairePunctuation += new Vector2(5, 7);
+                }
             }
 
             else if (i == 5)
             {
                 medication[1] = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
                 medicationValue[1] = drop.GetComponent<TMP_Dropdown>().value;
+                if (drop.GetComponent<TMP_Dropdown>().value != 0)
+                {
+                    questionnairePunctuation += new Vector2(5, 7);
+                }
             }
 
             else if (i == 6)
             {
                 pregnancy = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
                 pregnancyValue = drop.GetComponent<TMP_Dropdown>().value;
+                if (drop.GetComponent<TMP_Dropdown>().value != 0)
+                {
+                    questionnairePunctuation += new Vector2(8, 4);
+                }
             }
 
             else if (i == 7)
             {
                 diabetes = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
                 diabetesValue = drop.GetComponent<TMP_Dropdown>().value;
+                if (drop.GetComponent<TMP_Dropdown>().value != 0)
+                {
+                    questionnairePunctuation += new Vector2(2, 7);
+                }
             }
 
             i++;
@@ -203,6 +291,7 @@ public class MainMenuManager : MonoBehaviour
                 }
 
                 risksValue[i - 1] = toggle.GetComponent<Toggle>().isOn;
+                questionnairePunctuation += new Vector2(4, 8);
             }
             else
             {
@@ -245,6 +334,8 @@ public class MainMenuManager : MonoBehaviour
 
     private void OnDisable()
     {
+        PlayerPrefs.SetFloat("questionnairePunctuationX", questionnairePunctuation.x);
+        PlayerPrefs.SetFloat("questionnairePunctuationY", questionnairePunctuation.y);
         PlayerPrefs.SetInt("diabetesValue", diabetesValue);
         PlayerPrefs.SetInt("pregnancyValue", pregnancyValue);
         PlayerPrefs.SetInt("medicationValue0", medicationValue[0]);
@@ -263,6 +354,8 @@ public class MainMenuManager : MonoBehaviour
 
     private void OnEnable()
     {
+        questionnairePunctuation.x = PlayerPrefs.GetFloat("questionnairePunctuationX", 0);
+        questionnairePunctuation.y = PlayerPrefs.GetFloat("questionnairePunctuationY", 0);
         diabetesValue = PlayerPrefs.GetInt("diabetesValue", 0);
         pregnancyValue = PlayerPrefs.GetInt("pregnancyValue", 0);
         medicationValue[0] = PlayerPrefs.GetInt("medicationValue0", 0);

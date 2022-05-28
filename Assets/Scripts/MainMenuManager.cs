@@ -328,6 +328,9 @@ public class MainMenuManager : MonoBehaviour
         questionnaire.SetActive(false);
         completedQuestionnaire = true;
         activedQuestionnaire = false;
+        PlayerPrefs.SetFloat("punctuationX", 0);
+        PlayerPrefs.SetFloat("punctuationY", 0);
+        PlayerPrefs.SetString("currentLevel", "Level1");
     }
 
     public void exit()

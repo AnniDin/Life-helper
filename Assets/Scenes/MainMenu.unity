@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -362,7 +362,8 @@ MonoBehaviour:
     primaria. Revista Medica Sinergia, 5(2), e355. https://doi.org/10.31434/rms.v5i2.355"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -622,7 +623,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1102,7 +1104,8 @@ MonoBehaviour:
   m_text: Ninguno
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1615,7 +1618,8 @@ MonoBehaviour:
     Frontiers in Psychology, 5(MAR). https://doi.org/10.3389/fpsyg.2014.00260"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1749,7 +1753,8 @@ MonoBehaviour:
   m_text: Ninguno
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2228,7 +2233,8 @@ MonoBehaviour:
   m_text: Salir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2515,7 +2521,8 @@ MonoBehaviour:
     autistic children. Autism Research, 14(8), 1645-1657. https://doi.org/10.1002/aur.2525"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2652,7 +2659,8 @@ MonoBehaviour:
     confirmado haber entendido el tratamiento d esus datos en la primera casilla)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2824,7 +2832,8 @@ MonoBehaviour:
     Start to get better'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e7f5fe53878aadd40bc246b8d52a0705, type: 2}
-  m_sharedMaterial: {fileID: -5040674906101977110, guid: e7f5fe53878aadd40bc246b8d52a0705, type: 2}
+  m_sharedMaterial: {fileID: -5040674906101977110, guid: e7f5fe53878aadd40bc246b8d52a0705,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3195,7 +3204,8 @@ MonoBehaviour:
   m_text: Referencias
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e7f5fe53878aadd40bc246b8d52a0705, type: 2}
-  m_sharedMaterial: {fileID: -5040674906101977110, guid: e7f5fe53878aadd40bc246b8d52a0705, type: 2}
+  m_sharedMaterial: {fileID: -5040674906101977110, guid: e7f5fe53878aadd40bc246b8d52a0705,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3411,7 +3421,8 @@ MonoBehaviour:
     \u2014 e Avallac\xE1o Psicol\xF3gica, 54(1) https://doi.org/10.21865/ridep54.1.12"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3621,7 +3632,8 @@ MonoBehaviour:
   m_text: "(en caso de tomar/haber tomado  m\xE1s, eliga las dos principales)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3963,7 +3975,8 @@ MonoBehaviour:
   m_text: "Resoluci\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4891,7 +4904,8 @@ MonoBehaviour:
     19(1), 210-234. https://doi.org/10.30827/eticanet v19i1-11867"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5247,7 +5261,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5381,7 +5396,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5998,7 +6014,8 @@ MonoBehaviour:
   m_text: Salir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6340,7 +6357,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6553,7 +6571,8 @@ MonoBehaviour:
   m_text: "(en caso de tener m\xE1s, eliga los dos principales)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7084,7 +7103,8 @@ MonoBehaviour:
     for Nurse Practitioners, 17(1), 49-53. https://doi.org/10.1016/).nurpra.2020.08.021"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8012,7 +8032,8 @@ MonoBehaviour:
     futur\xE1 mejora de la aplicaci\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8504,7 +8525,8 @@ MonoBehaviour:
     Redipe, 10(2), 182-189. https://doi.org/10.36260/rbr.v1012.1205"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8685,7 +8707,8 @@ MonoBehaviour:
     quality of life and mental health symptoms. Bra\xEDn Sciences, 11(6). https://doi.org/10.3390/brainscit1060813"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8819,7 +8842,8 @@ MonoBehaviour:
   m_text: Ninguno
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8926,17 +8950,28 @@ MonoBehaviour:
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
 --- !u!114 &733818662
@@ -9139,7 +9174,8 @@ MonoBehaviour:
     Medicine, 15(10), 1433-1442. https://doi.org/10.5664/jcsm.7970"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9349,7 +9385,8 @@ MonoBehaviour:
   m_text: "\xBFPadece alg\xFAn tipo de diabetes?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9483,7 +9520,8 @@ MonoBehaviour:
   m_text: "(en caso de padecer m\xE1s, eliga los dos principales)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9621,7 +9659,8 @@ MonoBehaviour:
     hormonales de alg\xFAn tipo?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10115,7 +10154,8 @@ MonoBehaviour:
   m_text: Finalizar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11570,7 +11610,8 @@ MonoBehaviour:
     M\xE9d. Colomb, 41(2), 96-97. http://www.scielo.org.co/pdf/amc/v41n2/0120-2448-amc-41-02-00096.pdf"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11779,7 +11820,8 @@ MonoBehaviour:
   m_text: "Gr\xE1ficos"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11988,7 +12030,8 @@ MonoBehaviour:
   m_text: Ninguna
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12517,7 +12560,8 @@ AudioSource:
   m_GameObject: {fileID: 964900702}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 0bddefa812839684ea289e930d7d95af, type: 2}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 0bddefa812839684ea289e930d7d95af,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 56d7d47f3411bee44a698f628f4bf68d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -12691,7 +12735,8 @@ MonoBehaviour:
     de pareja. (2019). Psicolog\xEDa, Conocimiento y Sociedad, 9/1). https://doi.org/10.26864/pcs.v9.n1.1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13537,7 +13582,8 @@ MonoBehaviour:
     Inc. https://doi.org/10.1089/g4h.2017.0150"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13826,7 +13872,8 @@ MonoBehaviour:
     el adulto mayor. Revista Medica Herediana, 29(3), 182 https://doi.org/10.20453/rmh.v2913.3408"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14074,7 +14121,8 @@ MonoBehaviour:
   m_text: "\xBFTiene antecedentes familiares de alg\xFAn trastorno? \xBFCu\xE1l/Cu\xE1les?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14316,7 +14364,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14654,7 +14703,8 @@ MonoBehaviour:
   m_text: "\xBFHa sido diagnosticado previamente con alg\xFAn trastorno? \xBFCu\xE1l/Cu\xE1les?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15143,6 +15193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4d2ddfc43a1b6f4fb26d36f5804c6d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  incompletQuestionnaireText: {fileID: 1375886081}
 --- !u!4 &1129261810
 Transform:
   m_ObjectHideFlags: 0
@@ -15339,7 +15390,8 @@ MonoBehaviour:
   m_text: Cuestionario
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e7f5fe53878aadd40bc246b8d52a0705, type: 2}
-  m_sharedMaterial: {fileID: -5040674906101977110, guid: e7f5fe53878aadd40bc246b8d52a0705, type: 2}
+  m_sharedMaterial: {fileID: -5040674906101977110, guid: e7f5fe53878aadd40bc246b8d52a0705,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15955,7 +16007,8 @@ MonoBehaviour:
     of Epidemiology and Public Health, 2(1). https://doi.org/10.18041/2665-427x/jeph.1.5342"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16342,7 +16395,8 @@ MonoBehaviour:
   m_text: "\xBFHa sufrido o tiene riesgo de...?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16476,7 +16530,8 @@ MonoBehaviour:
   m_text: Ajustes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e7f5fe53878aadd40bc246b8d52a0705, type: 2}
-  m_sharedMaterial: {fileID: -5040674906101977110, guid: e7f5fe53878aadd40bc246b8d52a0705, type: 2}
+  m_sharedMaterial: {fileID: -5040674906101977110, guid: e7f5fe53878aadd40bc246b8d52a0705,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17055,7 +17110,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17577,7 +17633,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17923,6 +17980,141 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361180581}
+  m_CullTransparentMesh: 1
+--- !u!1 &1375886081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1375886082}
+  - component: {fileID: 1375886084}
+  - component: {fileID: 1375886083}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1375886082
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375886081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2007609392}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 58, y: -153}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1375886083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375886081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\xA1Se necesita finalizar el cuestionario antes de comenzar!"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -185.12067, y: -28.85001, z: -81.741684, w: -21.637465}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1375886084
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375886081}
   m_CullTransparentMesh: 1
 --- !u!1 &1377575154
 GameObject:
@@ -18292,7 +18484,8 @@ MonoBehaviour:
   m_text: Velocidad del texto
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18582,7 +18775,8 @@ MonoBehaviour:
     Care for the Older Adult (pp. 63-80). Springer Publishing Company. https://doi.org/10.1891/9780826157515.0005"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18867,7 +19061,8 @@ MonoBehaviour:
   m_text: Ninguno
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21093,7 +21288,8 @@ MonoBehaviour:
     Journal for Nurse Practitioners, 17(1), 60-64. https://doi.org/10.1016/.nurpra.2020.08.017"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22047,7 +22243,8 @@ MonoBehaviour:
     neuropsiqui\xE1tricos , 17 , 1735-1743. https://doi.org/10.2147/NDT.5302782"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22676,7 +22873,8 @@ MonoBehaviour:
   m_text: Volumen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23106,7 +23304,8 @@ MonoBehaviour:
   m_text: "\xBFSe encuentra en el periodo de embarazo o postparto?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23279,7 +23478,8 @@ MonoBehaviour:
     https://doi.org/10.3389/fpsyg-2018.01837"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23575,7 +23775,8 @@ MonoBehaviour:
   m_text: No
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23748,6 +23949,7 @@ RectTransform:
   - {fileID: 345770865}
   - {fileID: 614993696}
   - {fileID: 686097365}
+  - {fileID: 1375886082}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23892,7 +24094,8 @@ MonoBehaviour:
     Medicina (B.Alres), 80, 12-16. http://www.scielo.org.ar/pdf/medba/v80s2/v80s2a04.pdf"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24026,7 +24229,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24484,7 +24688,8 @@ MonoBehaviour:
   m_text: No
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24618,7 +24823,8 @@ MonoBehaviour:
   m_text: Ninguna
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
-  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5, type: 2}
+  m_sharedMaterial: {fileID: -4737760905312632550, guid: bcd8184bac443a0418e2c9b82897d2a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

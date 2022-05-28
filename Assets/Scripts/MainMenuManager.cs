@@ -28,6 +28,11 @@ public class MainMenuManager : MonoBehaviour
     int diabetesValue;
     bool[] risksValue;
     bool contidionValue;
+    bool startTimer;
+
+    private float m_Timer;
+
+    public GameObject incompletQuestionnaireText;
 
     Vector2 questionnairePunctuation;
 
@@ -35,6 +40,7 @@ public class MainMenuManager : MonoBehaviour
     {
         completedQuestionnaire = false;
         activedQuestionnaire = false;
+        startTimer = false;
 
         diagnosedDisorders = new string[2];
         antecedentDisorders = new string[2];
@@ -66,6 +72,18 @@ public class MainMenuManager : MonoBehaviour
                 GameObject.Find("Canvas/Questionnaire/Scroll View/Viewport/Content/Text (TMP)_Last/ButtonFinalice").GetComponent<Button>().interactable = false;
             }
         }
+
+        if (startTimer)
+        {
+            m_Timer += Time.deltaTime;
+
+            if (m_Timer >= 5)
+            {
+                m_Timer = 0;
+                startTimer = false;
+                incompletQuestionnaireText.SetActive(false);
+            }
+        }
     }
 
     public void startGameplay()
@@ -73,6 +91,11 @@ public class MainMenuManager : MonoBehaviour
         if (completedQuestionnaire)
         {
             SceneManager.LoadScene(PlayerPrefs.GetString("currentLevel", "Level1")); 
+        }
+        else
+        {
+            incompletQuestionnaireText.SetActive(true);
+            startTimer = true;
         }
     }
 

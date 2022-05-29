@@ -1414,6 +1414,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb7dbfc2fec60274ea1dd06b01a9c547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actualX: 0
+  actualY: 0
+  actualZ: 0
+  initialX: 0
+  initialY: 0
+  initialZ: 0
   cursorControl: {fileID: 372555434}
 --- !u!114 &372555436
 MonoBehaviour:

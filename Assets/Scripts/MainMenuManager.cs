@@ -89,7 +89,7 @@ public class MainMenuManager : MonoBehaviour
     {
         if (togglesToActualice[0].GetComponent<Toggle>().isOn)
         {
-            SceneManager.LoadScene(PlayerPrefs.GetString("currentLevel", "Level1")); 
+            SceneManager.LoadScene("Level3"/*PlayerPrefs.GetString("currentLevel", "Level1")*/); 
         }
         else
         {

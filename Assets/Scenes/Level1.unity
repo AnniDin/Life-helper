@@ -350,6 +350,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb7dbfc2fec60274ea1dd06b01a9c547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actualX: 0
+  actualY: 0
+  actualZ: 0
+  initialX: 0
+  initialY: 0
+  initialZ: 0
   cursorControl: {fileID: 25375969}
 --- !u!114 &25375969
 MonoBehaviour:
@@ -9326,7 +9332,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.9056604, g: 0.7555158, b: 0.34603062, a: 1}
-  m_Intensity: 5.2
+  m_Intensity: 1.46
   m_Range: 4.1799536
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

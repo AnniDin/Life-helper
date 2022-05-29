@@ -685,14 +685,14 @@ public class Leve1Manager : MonoBehaviour
         else if (selecctions.Contains("Solo no me apetece") || selecctions.Contains("No es de tu incumbencia"))
         {
             sentences.Add("Lamento si te he incomodado, no era la intención.");
-            sentences.Add("¡Eh!¿Qué es eso encima del escritorioa?");
+            sentences.Add("¡Eh!¿Qué es eso encima del escritorio?");
             sentences.Add("No será algún tipo de droga, ¿no?");
         }
 
         else if (selecctions.Contains("Por algunas cirsumstancias, pero me gustaría volver a hacer algo"))
         {
             sentences.Add("Al menos tienes la actitud, es un buen comienzo.");
-            sentences.Add("¡Eh!¿Qué es eso encima del escritorioa?");
+            sentences.Add("¡Eh!¿Qué es eso encima del escritorio?");
             sentences.Add("No será algún tipo de droga, ¿no?");
         }
 

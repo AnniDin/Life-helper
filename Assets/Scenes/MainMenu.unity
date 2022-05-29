@@ -15194,6 +15194,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   incompletQuestionnaireText: {fileID: 1375886081}
+  dropdownsToActualice:
+  - {fileID: 1099672837}
+  - {fileID: 1629114188}
+  - {fileID: 1765917515}
+  - {fileID: 1833265637}
+  - {fileID: 1387713379}
+  - {fileID: 1824714366}
+  - {fileID: 2028266831}
+  - {fileID: 1847102510}
+  togglesToActualice:
+  - {fileID: 1264586732}
+  - {fileID: 1236750291}
+  - {fileID: 354653514}
+  - {fileID: 939301675}
+  - {fileID: 1522216644}
+  - {fileID: 61540652}
 --- !u!4 &1129261810
 Transform:
   m_ObjectHideFlags: 0

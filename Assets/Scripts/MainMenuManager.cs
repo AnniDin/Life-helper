@@ -7,8 +7,6 @@ using TMPro;
 
 public class MainMenuManager : MonoBehaviour
 {
-
-    bool completedQuestionnaire;
     bool activedQuestionnaire;
     GameObject questionnaire;
     int[] dropdownValues;
@@ -33,12 +31,13 @@ public class MainMenuManager : MonoBehaviour
     private float m_Timer;
 
     public GameObject incompletQuestionnaireText;
+    public GameObject[] dropdownsToActualice;
+    public GameObject[] togglesToActualice;
 
     Vector2 questionnairePunctuation;
 
     void Awake()
     {
-        completedQuestionnaire = false;
         activedQuestionnaire = false;
         startTimer = false;
 
@@ -88,7 +87,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void startGameplay()
     {
-        if (completedQuestionnaire)
+        if (togglesToActualice[0].GetComponent<Toggle>().isOn)
         {
             SceneManager.LoadScene(PlayerPrefs.GetString("currentLevel", "Level1")); 
         }
@@ -326,7 +325,6 @@ public class MainMenuManager : MonoBehaviour
 
         questionnaire = GameObject.Find("Canvas").transform.GetChild(6).gameObject;
         questionnaire.SetActive(false);
-        completedQuestionnaire = true;
         activedQuestionnaire = false;
         PlayerPrefs.SetFloat("punctuationX", 0);
         PlayerPrefs.SetFloat("punctuationY", 0);
@@ -391,41 +389,40 @@ public class MainMenuManager : MonoBehaviour
         diagnosedDisordersValue[0] = PlayerPrefs.GetInt("diagnosedDisordersValue0", 0);
         diagnosedDisordersValue[1] = PlayerPrefs.GetInt("diagnosedDisordersValue1", 0);
 
-        if (PlayerPrefs.GetString("risksValue0", "false") == "true")
+        if (PlayerPrefs.GetString("risksValue0", "False") == "True")
             risksValue[0] = true;
         else
             risksValue[0] = false;
 
-        if (PlayerPrefs.GetString("risksValue1", "false") == "true")
+        if (PlayerPrefs.GetString("risksValue1", "False") == "True")
             risksValue[1] = true;
         else
             risksValue[1] = false;
 
-        if (PlayerPrefs.GetString("risksValue2", "false") == "true")
+        if (PlayerPrefs.GetString("risksValue2", "False") == "True")
             risksValue[2] = true;
         else
             risksValue[2] = false;
 
-        if (PlayerPrefs.GetString("risksValue3", "false") == "true")
+        if (PlayerPrefs.GetString("risksValue3", "False") == "True")
             risksValue[3] = true;
         else
             risksValue[3] = false;
 
-        if (PlayerPrefs.GetString("risksValue4", "false") == "true")
+        if (PlayerPrefs.GetString("risksValue4", "False") == "True")
             risksValue[4] = true;
         else
             risksValue[4] = false;
 
-        if (PlayerPrefs.GetString("contidionValue", "false") == "true")
+        if (PlayerPrefs.GetString("contidionValue", "False") == "True")
             contidionValue = true;
         else
             contidionValue = false;
 
-
-        GameObject[] dropdowns = GameObject.FindGameObjectsWithTag("DropDown");
         int i = 0;
+        dropdownValues = new int[dropdownsToActualice.Length];
 
-        foreach (GameObject drop in dropdowns)
+        foreach (GameObject drop in dropdownsToActualice)
         {
 
             if (i == 0)
@@ -475,14 +472,14 @@ public class MainMenuManager : MonoBehaviour
                 drop.GetComponent<TMP_Dropdown>().value = diabetesValue;
                 diabetes = drop.GetComponent<TMP_Dropdown>().options[drop.GetComponent<TMP_Dropdown>().value].text;
             }
-
+            dropdownValues[i] = drop.GetComponent<TMP_Dropdown>().value;
             i++;
         }
 
-        GameObject[] toggles = GameObject.FindGameObjectsWithTag("Toggle");
         i = 0;
+        togglesValues = new bool[togglesToActualice.Length];
 
-        foreach (GameObject toggle in toggles)
+        foreach (GameObject toggle in togglesToActualice)
         {
             if (i != 0)
             {
@@ -498,6 +495,7 @@ public class MainMenuManager : MonoBehaviour
                 toggle.GetComponent<Toggle>().isOn = contidionValue;
             }
 
+            togglesValues[i] = toggle.GetComponent<Toggle>().isOn;
             i++;
         }
 

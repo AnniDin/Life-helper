@@ -36,6 +36,7 @@ public class PauseMenuManager : MonoBehaviour
 
     public void returnToMainMenu()
     {
+        Destroy(GameObject.Find("Audio Source").gameObject);
         SceneManager.LoadScene("MainMenu");
     }
 

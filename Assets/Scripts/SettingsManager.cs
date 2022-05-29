@@ -91,7 +91,7 @@ public class SettingsManager : MonoBehaviour
         volume = PlayerPrefs.GetFloat("volume", 0f);
         qualityIndex = PlayerPrefs.GetInt("qualityIndex", 2);
 
-        if (PlayerPrefs.GetString("isFullscreen", "true") == "true")
+        if (PlayerPrefs.GetString("isFullscreen", "True") == "True")
         {
             isFullscreen = true;
         }

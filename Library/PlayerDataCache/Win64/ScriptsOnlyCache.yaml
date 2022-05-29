@@ -2628,7 +2628,7 @@ ScriptsOnlyBuild:
     className: UniversalAdditionalLightData
   - hash:
       serializedVersion: 2
-      Hash: 8c355832001bfe29b470412f83ce0742
+      Hash: 0a00f49b54db9021c604491bae20e464
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenuManager

@@ -88,7 +88,7 @@ public class Level3Manager : MonoBehaviour
         sentences.Add("Parece que ya lo han dejado en paz, pero estoy seguro de que se ha sido llorando.");
         sentences.Add("Realmente no entiendo a los humanos.");
         sentences.Add("Debe de ser horrible que te humillen así.");
-        sentences.Add("Espero que haya sido un caso´especial y que no sea algo común.");
+        sentences.Add("Espero que haya sido un caso especial y que no sea algo común.");
         sentences.Add("No para la mayoría al menos.");
         sentences.Add("¿Tú que opinas?");
 

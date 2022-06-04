@@ -67,7 +67,7 @@ public class Level5Manager : MonoBehaviour
         sentences.Add("");
         sentences.Add("Esto es una cafetería, ¿cierto?");
         sentences.Add("Se está bastante tranquilo, parece que por fin tendremos algo de paz.");
-        sentences.Add("No pensaba que tendríamos que presenciar situaciones tan incómodas cuando te pedí que me aocmpañases.");
+        sentences.Add("No pensaba que tendríamos que presenciar situaciones tan incómodas cuando te pedí que me acompañases.");
         sentences.Add("Lamento si lo estás pasando mal.");
         sentences.Add("Al menos ahora podemos descansar un poco.");
         sentences.Add("Oh, la camarera está viniendo hacía aquí.");
@@ -425,7 +425,7 @@ public class Level5Manager : MonoBehaviour
             sentences.Add("Me alegro de que a ti no te suponga un problema.");
             sentences.Add("Me preguntó si la mayoría de humanos podrán.");
 
-            sentences.Add("¡Llevo media hora esperando un café!");
+            sentences.Add("¡Llevo diez minutos esperando un café!");
             sentences.Add("¿Puedes ser más rápida?");
 
             sentences.Add("Aquí lo tienes.");
@@ -439,11 +439,11 @@ public class Level5Manager : MonoBehaviour
         else if (selecctions.Contains("No he tenido la necesidad"))
         {
             sentences.Add("Es mejor así.");
-            sentences.Add("Solo tenlo en mente para cuanndo le necesites.");
+            sentences.Add("Solo tenlo en mente para cuanndo lo necesites.");
             sentences.Add("Nunca se sabe.");
-            sentences.Add("Me preguntó si la mayoría de humanos podrán.");
+            sentences.Add("Me pregunto si la mayoría de humanos podrán.");
 
-            sentences.Add("¡Llevo media hora esperando un café!");
+            sentences.Add("¡Llevo diez minutos esperando un café!");
             sentences.Add("¿Puedes ser más rápida?");
 
             sentences.Add("Aquí lo tienes.");
@@ -459,9 +459,9 @@ public class Level5Manager : MonoBehaviour
             sentences.Add("Es dífícil.");
             sentences.Add("Pero estoy seguro de que con el tiempo aprenderás.");
             sentences.Add("Es algo necesario al fin y al cabo.");
-            sentences.Add("Me preguntó si la mayoría de humanos podrán.");
+            sentences.Add("Me pregunto si la mayoría de humanos podrán.");
 
-            sentences.Add("¡Llevo media hora esperando un café!");
+            sentences.Add("¡Llevo diez minutos esperando un café!");
             sentences.Add("¿Puedes ser más rápida?");
 
             sentences.Add("Aquí lo tienes.");
@@ -477,7 +477,7 @@ public class Level5Manager : MonoBehaviour
             sentences.Add("Oh, será cosa mía entonces.");
             sentences.Add("Es cierto que no conozco a nadie más que le pase.");
             sentences.Add("¿Y si estoy enfermo?");
-            sentences.Add("¿Debería al médico en cuanto vuelva a mi dimensión?");
+            sentences.Add("¿Debería ir al médico en cuanto vuelva a mi dimensión?");
             sentences.Add("No, no creo que sea para tanto.");
 
             sentences.Add("Quizá dejé que los comentarios de que nunca me entero de nada me afectaran demasiado.");
@@ -507,7 +507,7 @@ public class Level5Manager : MonoBehaviour
             sentences.Add("¡Genial!"); 
             sentences.Add("Me gustaría poder pedir algo a mi también.");
             sentences.Add("Pero creo que aquí vendan comida de mi dimensión.");
-            sentences.Add("Me tendré que conformar con ver comer a ti.");
+            sentences.Add("Me tendré que conformar con verte comer a ti.");
             sentences.Add("Vaya, aquí está.");
 
             sentences.Add("¿Qué te sirvo?");
@@ -534,7 +534,7 @@ public class Level5Manager : MonoBehaviour
             sentences.Add("En seguida te lo traigo.");
 
             sentences.Add("Realmente este es un buen sitio para perderse en tu mundo.");
-            sentences.Add("¿Qué a qué me refiero");
+            sentences.Add("¿Qué a qué me refiero?");
             sentences.Add("Ya sabes, cuando te quedas con la mente en blanco.");
             sentences.Add("A mí me solían decir que era un despistado porque me pasaba a menudo.");
             sentences.Add("¿Sabes a qué me refiero?");

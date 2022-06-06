@@ -398,7 +398,7 @@ public class Level6Manager : MonoBehaviour
         else if (selecctions.Contains("No me gusta hablar con extraños") || selecctions.Contains("Dame un minuto que me mentalice"))
         {
             sentences.Add("¿Te supone mucho problema?");
-            sentences.Add("No quiero hacerte pasar por una situación que no te gusta.");
+            sentences.Add("No quiero hacerte pasar por una situación que te gusta.");
             sentences.Add("Pero ahora mismo no tenemos más alternativas.");
             sentences.Add("Por favor. Ve.");
 

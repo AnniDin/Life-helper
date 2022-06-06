@@ -196,10 +196,6 @@ public class Level11Manager : MonoBehaviour
                 results.transform.GetChild(3).gameObject.GetComponent<TextMeshProUGUI>().text = "Se han detectado altos niveles de ansiedad preocupantes." +
                     " Se recomienda acudir de forma inmediata a un especialista.";
             }
-            else
-            {
-                results.transform.GetChild(3).gameObject.GetComponent<TextMeshProUGUI>().text = "No se han detectado niveles de ansiedad.";
-            }
 
             if (PlayerPrefs.GetFloat("punctuationY", 0f) + PlayerPrefs.GetFloat("questionnairePunctuationY", 0f) >= 0f & 
                 PlayerPrefs.GetFloat("punctuationY", 0f) + PlayerPrefs.GetFloat("questionnairePunctuationY", 0f) <= 10f)
@@ -222,10 +218,6 @@ public class Level11Manager : MonoBehaviour
             {
                 results.transform.GetChild(4).gameObject.GetComponent<TextMeshProUGUI>().text = "Se han detectado altos niveles de sintomatología depresiva preocupantes." +
                     " Se recomienda acudir de forma inmediata a un especialista.";
-            }
-            else
-            {
-                results.transform.GetChild(4).gameObject.GetComponent<TextMeshProUGUI>().text = "No se ha detectado sintomatología depresiva.";
             }
         }
 
@@ -307,7 +299,7 @@ public class Level11Manager : MonoBehaviour
             sentences.Add("Ah...");
             sentences.Add("Creo que ha llegado el momento de que me vaya.");
             sentences.Add("Ha sido un placer conocerte.");
-            sentences.Add("Quién sabe, puede que nos volvamos a encontrar.");
+            sentences.Add("Quién sabee, puede que nos volvamos a encontrar.");
             sentences.Add("¡Adiós!");
         }
 

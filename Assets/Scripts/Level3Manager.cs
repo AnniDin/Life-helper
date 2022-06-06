@@ -71,7 +71,7 @@ public class Level3Manager : MonoBehaviour
         sentences.Add("Solemos entrar por la ventana.");
         sentences.Add("Es una zona muy amplia.");
         sentences.Add("Puede que tardemos más de lo que me gustaría para encontrar este fragmento.");
-        sentences.Add("Encima hay estudiantes dando vueltas por aquí, tendremos que ir con cuidado.");
+        sentences.Add("Encima hay estuadiantes dando vueltas por aquí, tendremos que ir con cuidado.");
         sentences.Add("Intentemos no llamar la atención.");
 
         sentences.Add("¿Vas a llorar? Jajaja.");

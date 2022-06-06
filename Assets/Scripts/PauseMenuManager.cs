@@ -13,8 +13,6 @@ public class PauseMenuManager : MonoBehaviour
     [HideInInspector]
     public Vector2 punctuationToSave;
 
-    private bool saved;
-
     private void Start()
     {
         pauseMenuEnable = false;
@@ -47,7 +45,6 @@ public class PauseMenuManager : MonoBehaviour
         PlayerPrefs.SetFloat("punctuationX", punctuationToSave.x);
         PlayerPrefs.SetFloat("punctuationY", punctuationToSave.y);
         PlayerPrefs.SetString("currentLevel", SceneManager.GetActiveScene().name);
-        saved = true;
     }
 
     public void closePauseMenu()
@@ -61,5 +58,4 @@ public class PauseMenuManager : MonoBehaviour
         punctuationToSave.x = PlayerPrefs.GetFloat("punctuationX", 0f);
         punctuationToSave.y = PlayerPrefs.GetFloat("punctuationY", 0f);
     }
-
 }

@@ -506,7 +506,7 @@ public class Level5Manager : MonoBehaviour
         {
             sentences.Add("¡Genial!"); 
             sentences.Add("Me gustaría poder pedir algo a mi también.");
-            sentences.Add("Pero no creo que aquí vendan comida de mi dimensión.");
+            sentences.Add("Pero creo que aquí vendan comida de mi dimensión.");
             sentences.Add("Me tendré que conformar con verte comer a ti.");
             sentences.Add("Vaya, aquí está.");
 

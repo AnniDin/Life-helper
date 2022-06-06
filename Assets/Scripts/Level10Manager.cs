@@ -370,7 +370,7 @@ public class Level10Manager : MonoBehaviour
 
         }
 
-        else if (dialog.lastSentence.Contains("Vayamos a por él."))
+        else if (dialog.lastSentence.Contains("Es hora de volver a casa."))
         {
             this.gameObject.GetComponent<PauseMenuManager>().punctuationToSave += punctuation;
             SceneManager.LoadScene("Level11");
@@ -448,8 +448,7 @@ public class Level10Manager : MonoBehaviour
         {
             if (fragmentFound)
             {
-                sentences.Add("Solo queda uno.");
-                sentences.Add("Vayamos a por él.");
+                sentences.Add("Es hora de volver a casa.");
 
             }
             else

@@ -89,7 +89,7 @@ public class MainMenuManager : MonoBehaviour
     {
         if (togglesToActualice[0].GetComponent<Toggle>().isOn)
         {
-            SceneManager.LoadScene("Level3"/*PlayerPrefs.GetString("currentLevel", "Level1")*/); 
+            SceneManager.LoadScene(PlayerPrefs.GetString("currentLevel", "Level1")); 
         }
         else
         {
@@ -326,10 +326,11 @@ public class MainMenuManager : MonoBehaviour
         questionnaire = GameObject.Find("Canvas").transform.GetChild(6).gameObject;
         questionnaire.SetActive(false);
         activedQuestionnaire = false;
-        PlayerPrefs.SetFloat("punctuationX", 0);
-        PlayerPrefs.SetFloat("punctuationY", 0);
-        PlayerPrefs.SetString("currentLevel", "Level1");
+
+        PlayerPrefs.DeleteAll();
+
     }
+
 
     public void exit()
     {
